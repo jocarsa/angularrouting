@@ -9,3 +9,5 @@ ng generate component inicio --standalone false
 ng generate component blog --standalone false
 ng generate component sobremi --standalone false
 ng generate component contacto --standalone false
+
+ng generate service datosblog
