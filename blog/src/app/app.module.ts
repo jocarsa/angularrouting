@@ -12,6 +12,8 @@ import { BlogComponent } from './blog/blog.component';
 import { SobremiComponent } from './sobremi/sobremi.component';
 import { ContactoComponent } from './contacto/contacto.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { ContactoComponent } from './contacto/contacto.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
