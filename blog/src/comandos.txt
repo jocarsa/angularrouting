@@ -1,4 +1,6 @@
-ng new blog -standalone false
+ng new blog --standalone false
 cd blog
 ng serve
 
+ng generate component cabecera --standalone false
+ng generate component piedepagina --standalone false
